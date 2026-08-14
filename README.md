@@ -4,7 +4,7 @@ Open-source web software for learning Java programming foundations through activ
 
 > **Status:** Foundation v0.1 — the application foundation is being established. Browser execution, judging, debugging missions, and full lesson systems are roadmap items, not implemented features yet.
 
-**Live site target:** https://inmersion-cs.github.io/Java/
+**Live site:** https://inmersion-cs.github.io/Java/
 
 ## Why this project exists
 
