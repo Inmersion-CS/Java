@@ -1,22 +1,18 @@
 # Java
 
-Open-source web software for learning Java programming foundations through active practice.
+Web-based Java learning project focused on programming practice and debugging.
 
-> **Status:** Foundation v0.1 — the application foundation is being established. Browser execution, judging, debugging missions, and full lesson systems are roadmap items, not implemented features yet.
+> **Status:** Foundation v0.1. The current release provides the application shell and project infrastructure. Browser execution, automated judging, debugging missions, and full lesson systems are roadmap items.
 
 **Live site:** https://inmersion-cs.github.io/Java/
 
-## Why this project exists
+## Learning model
 
-Programming is learned by doing. Java is intended to become a learning environment where reading code, predicting execution, writing programs, testing ideas, and debugging mistakes form one continuous practice loop.
+The project is designed around a practical loop: read code, predict what it will do, write a solution, test it, and debug the result. Planned subject coverage includes program flow, methods, arrays and strings, classes and objects, exceptions, I/O, searching, sorting, recursion, testing, and debugging.
 
-## Learning scope
+## Current implementation
 
-The planned scope includes program flow, methods, arrays and strings, classes and objects, exceptions, I/O, searching, sorting, recursion, testing, and debugging practice.
-
-## Current features
-
-Foundation v0.1 provides a React + TypeScript application shell, subject-specific routes and roadmap, responsive keyboard-accessible navigation, strict type checking, linting, automated tests, dependency audit, production builds, GitHub Pages automation, and open-source project governance files.
+The repository currently contains a React + TypeScript application shell with Java-specific routes and roadmap content, responsive keyboard-accessible navigation, strict type checking, linting, automated tests, production builds, and GitHub Pages deployment.
 
 ## Roadmap
 
@@ -24,22 +20,22 @@ Foundation v0.1 provides a React + TypeScript application shell, subject-specifi
 2. Arrays and strings
 3. Objects and classes
 4. Debugging and problem solving
-5. Later: browser coding workspace and exercise/judging systems
+5. Browser coding workspace and exercise/judging systems
 
 ## Technology
 
-React, TypeScript, Vite, React Router, Vitest, React Testing Library, ESLint, Prettier, GitHub Actions, and GitHub Pages.
+React · TypeScript · Vite · React Router · Vitest · Testing Library · ESLint · Prettier · GitHub Actions
 
-## Local development
+## Development
+
+Node.js 22.13 or newer is required.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Node.js 22.13 or newer is required.
-
-## Quality commands
+Quality checks:
 
 ```bash
 npm audit --audit-level=high
@@ -50,23 +46,9 @@ npm run build
 npm run format:check
 ```
 
-## Project structure
+## Contributing and accessibility
 
-```text
-.github/          CI, Pages, Dependabot, contribution templates
-public/           Project-owned static assets
-src/app/          Application shell, routes, identity
-src/styles/       Responsive/accessibility foundation
-src/test/         Test setup
-```
-
-## Contributing
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Keep changes focused, tested, accessible, and honest about implemented versus planned behavior.
-
-## Accessibility
-
-Semantic landmarks, keyboard navigation, visible focus states, touch-friendly controls, and reduced-motion support are foundation requirements.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). The interface should remain keyboard-operable, responsive, touch-friendly, and clear about what is implemented versus planned.
 
 ## License
 
